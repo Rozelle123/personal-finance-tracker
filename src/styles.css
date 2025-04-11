@@ -1,0 +1,123 @@
+/* style.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:white;
+  }
+  
+  .container {
+    width: 600px; 
+    height: 100%; 
+    background-color: white;
+    border: 2px solid #ddd;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    box-sizing: border-box;    
+    flex-direction: column;
+    justify-content: space-between;  
+   
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    
+  }
+  
+  button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3700b3;
+  }
+  
+  input, select {
+    margin: 5px 0;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* upper part of the container*/
+  .form-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px; 
+   background: linear-gradient(135deg, #7de4ee, #c2baf1); 
+    border: 1px solid #e0e0e0; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    width: 95%; 
+    margin: auto; 
+    
+  }
+
+  .current-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;     
+    gap: 10px;
+  }
+  
+.table-container {
+  margin: 20px auto;
+  width:100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+  background-color: #ffffff;
+  font-family: Arial, sans-serif; 
+  overflow-y: auto;
+  height: 500px;
+ 
+}
+
+/* collapsible table buttons */
+.MuiTableCell-root.collapsible-table-buttons {
+  width: 10px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/*charts */
+.chart-container {
+    width: 100%;
+    height: 320px; /* Adjust height as needed */
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #ffffff;
+    padding: 20px; /* Optional padding */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }

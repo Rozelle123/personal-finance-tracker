@@ -1,0 +1,260 @@
+[
+  {
+    "catId": 1,
+    "category": "Groceries",
+    "image": "/img/groceries.png",
+    "details": [
+        {
+            "detId": 1,
+            "date": "2025-03-01",
+            "desc": "Purchased groceries at the supermarket.",
+            "amount": 120
+        },
+        {
+            "detId": 2,
+            "date": "2025-03-08",
+            "desc": "Bought fresh fruits and vegetables.",
+            "amount": 45
+        },
+        {
+            "detId": 3,
+            "date": "2025-03-15",
+            "desc": "Stocked up on pantry essentials.",
+            "amount": 75
+        },
+        {
+            "detId": 4,
+            "date": "2025-03-20",
+            "desc": "Purchased snacks and beverages.",
+            "amount": 30
+        },
+        {
+            "detId": 5,
+            "date": "2025-03-25",
+            "desc": "Bought bakery items and dairy products.",
+            "amount": 40
+        },
+        {
+            "detId": 6,
+            "date": "2025-03-30",
+            "desc": "Restocked weekly groceries.",
+            "amount": 65
+        }
+    ]
+},
+{
+  "catId": 2,
+  "category": "Rent",
+  "image": "/img/rent.png",
+  "details": [
+      {
+          "detId": 1,
+          "date": "2025-03-01",
+          "desc": "Monthly rent for the apartment.",
+          "amount": 1500
+      },
+      {
+          "detId": 2,
+          "date": "2025-04-01",
+          "desc": "Monthly rent for the apartment.",
+          "amount": 1500
+      },
+      {
+          "detId": 3,
+          "date": "2025-05-01",
+          "desc": "Paid rent for May.",
+          "amount": 1500
+      },
+      {
+          "detId": 4,
+          "date": "2025-06-01",
+          "desc": "Covered apartment rent for June.",
+          "amount": 1500
+      },
+      {
+          "detId": 5,
+          "date": "2025-07-01",
+          "desc": "Paid rent ahead for July.",
+          "amount": 1500
+      },
+      {
+          "detId": 6,
+          "date": "2025-08-01",
+          "desc": "Rent payment for August completed.",
+          "amount": 1500
+      }
+  ]
+},
+{
+  "catId": 3,
+  "category": "Utilities",
+  "image": "/img/utilities.png",
+  "details": [
+      {
+          "detId": 1,
+          "date": "2025-03-02",
+          "desc": "Electricity and water bill.",
+          "amount": 90
+      },
+      {
+          "detId": 2,
+          "date": "2025-04-02",
+          "desc": "Paid monthly electricity and water bill.",
+          "amount": 95
+      },
+      {   
+          "detId": 3,
+          "date": "2025-05-02",
+          "desc": "Utility bill payment completed.",
+          "amount": 88
+      },
+      {
+          "detId": 4,
+          "date": "2025-06-02",
+          "desc": "Settled water and electricity dues.",
+          "amount": 92
+      },
+      {
+          "detId": 5,
+          "date": "2025-07-02",
+          "desc": "Paid utility charges for July.",
+          "amount": 89
+      },
+      {
+          "detId": 6,
+          "date": "2025-08-02",
+          "desc": "Monthly utility bill payment.",
+          "amount": 94
+      }
+  ]
+},
+{
+  "catId": 4,
+  "category": "Transportation",
+  "image": "/img/transportation.png",
+  "details": [
+      {   
+          "detId": 1,
+          "date": "2025-03-03",
+          "desc": "Fuel for the car.",
+          "amount": 50
+      },
+      {
+          "detId": 2,
+          "date": "2025-03-10",
+          "desc": "Car maintenance service.",
+          "amount": 100
+      },
+      {
+          "detId": 3,
+          "date": "2025-03-15",
+          "desc": "Refueled at a nearby gas station.",
+          "amount": 45
+      },
+      {
+          "detId": 4,
+          "date": "2025-03-20",
+          "desc": "Topped up fuel before a road trip.",
+          "amount": 60
+      },
+      {
+          "detId": 5,
+          "date": "2025-03-25",
+          "desc": "Paid for a taxi ride.",
+          "amount": 20
+      },
+      {
+          "detId": 6,
+          "date": "2025-03-30",
+          "desc": "Car wash and interior cleaning.",
+          "amount": 35
+      }
+  ]
+},
+{
+  "catId": 5,
+  "category": "Entertainment",
+  "image": "/img/entertainment.png",
+  "details": [
+      {
+          "detId": 1,
+          "date": "2025-03-03",
+          "desc": "Movie ticket.",
+          "amount": 30
+      },
+      {
+          "detId": 2,
+          "date": "2025-03-07",
+          "desc": "Subscription to streaming service.",
+          "amount": 15
+      },
+      {
+          "detId": 3,
+          "date": "2025-03-10",
+          "desc": "Attended a live concert.",
+          "amount": 120
+      },
+      {
+          "detId": 4,
+          "date": "2025-03-15",
+          "desc": "Purchased a video game.",
+          "amount": 60
+      },
+      {
+          "detId": 5,
+          "date": "2025-03-20",
+          "desc": "Rented a movie online.",
+          "amount": 10
+      },
+      {
+          "detId": 6,
+          "date": "2025-03-25",
+          "desc": "Went to a theme park.",
+          "amount": 80
+      }
+  ]
+},
+{
+  "catId": 6,
+  "category": "Others",
+  "image": "/img/others.png",
+  "details": [
+      {
+          "detId": 1,
+          "date": "2025-03-03",
+          "desc": "Donations.",
+          "amount": 150
+      },
+      {
+          "detId": 2,
+          "date": "2025-03-05",
+          "desc": "Purchased home essentials.",
+          "amount": 75
+      },
+      {
+          "detId": 3,
+          "date": "2025-03-10",
+          "desc": "Gift for a friend's birthday.",
+          "amount": 60
+      },
+      {
+          "detId": 4,
+          "date": "2025-03-15",
+          "desc": "Charity fundraiser contribution.",
+          "amount": 100
+      },
+      {
+          "detId": 5,
+          "date": "2025-03-20",
+          "desc": "Bought stationery and supplies.",
+          "amount": 45
+      },
+      {
+          "detId": 6,
+          "date": "2025-03-25",
+          "desc": "Miscellaneous household items.",
+          "amount": 80
+      }
+  ]
+}
+]
